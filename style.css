@@ -1,0 +1,38 @@
+        *{
+            margin:0;
+            box-sizing:border-box;
+        }
+            body{
+                background-color:lightgreen;
+                height:100vh;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+                font-family: 'Courgette', cursive;;
+            }
+            p{
+                margin-top:17px;
+            }
+            input{
+                width:auto;
+                height:23px;
+                padding:16px;
+            }
+            div{
+                max-width:600px;
+                max-height:1500px;
+                background-color:pink;
+                padding:28px;
+                box-shadow:1px 1px 15px 3px #2d3436;
+            }
+            h1{
+                margin-bottom:10px;
+                text-transform:capitalize;
+                color:black;
+                text-align:center;
+            }
+            .container input {
+                width: 100%;
+            }
+            }
