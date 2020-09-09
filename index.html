@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Water InTake Calculator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="style.css">
+            </head>
+    <body>
+        <h1>Water Intake Calculator</h1>
+        <div class="container">
+<form name="Form">
+            <p>Gender </p><select id="gender">
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="others">Others</option>
+            </select>
+             <p>Age</p><input id="age" type="number" min="1" max="100" placeholder="Your Age..">
+             <p>Weight</p><input id="weight" type="number" min="1" placeholder="Weight in kg's..">
+             <p>Exercise</p><input id="exer" type="number" min="0" placeholder="Exercise in minutes..">
+             
+             
+             <br>
+             <br>
+<input type="button" value="Calculate" onClick="calculate()">
+<br>
+<br>
+<input type="reset" value="Reset" />
+<p id="demo"></p>
+</form>
+</div>
+<script type="text/JavaScript" src="java.js"></script>
+</body>
+</html>
+
